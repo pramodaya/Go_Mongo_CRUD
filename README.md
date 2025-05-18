@@ -2,15 +2,6 @@
 
 ![Image](https://github.com/user-attachments/assets/6d17e4e9-8943-47ac-9a13-3e99cd13d9e9)
 
----
-
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
-
----
 
 ## Project Overview
 
