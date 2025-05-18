@@ -42,6 +42,23 @@ curl http://localhost:8080/travelusers
 curl http://localhost:8080/travelusers/<id>
 ```
 
+#### Create a TravelUser (POST)
+```
+curl -X POST http://localhost:8080/travelusers \
+  -H "Content-Type: application/json" \
+  -d '{
+    "username": "johndoe",
+    "email": "john@example.com",
+    "isEmailVerified": false,
+    "contactNumber": "1234567890",
+    "isContactNumberVerified": false,
+    "address": "123 Main St",
+    "country": "USA",
+    "age": 30
+  }'
+
+```
+
 #### Update a User by ID (PUT)
 
 ```
