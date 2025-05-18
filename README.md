@@ -39,7 +39,7 @@ Access the API at
 http://localhost:8080
 ```
 
-##End points
+## End points
 
 #### Get all users (GET)
 ```
@@ -69,14 +69,14 @@ curl -X PUT http://localhost:8080/travelusers/<id> \
 
 ```
 
-####Delete a User by ID (DELETE)
+#### Delete a User by ID (DELETE)
 
 ```
 curl -X DELETE http://localhost:8080/travelusers/<id>
 ```
 
 
-##Notes
+## Notes
 
 - MongoDB data is persisted in Docker volume mongodb_data.
 
